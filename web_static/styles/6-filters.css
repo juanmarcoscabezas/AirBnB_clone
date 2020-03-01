@@ -67,6 +67,7 @@
     margin: 0;
     margin-top: 35px;
     padding: 30px 0 30px 0;
+    position: relative;
     display: none;
 }
 
@@ -88,8 +89,10 @@
 
 .locations:hover .popover {
     display: block;
+    z-index: 1;
 }
 
 .amenities:hover .popover {
     display: block;
+    z-index: 1;
 }
